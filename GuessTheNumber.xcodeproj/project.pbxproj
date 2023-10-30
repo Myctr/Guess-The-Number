@@ -13,6 +13,8 @@
 		9FBBA7072AEFA0C900AEC6F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBBA7052AEFA0C900AEC6F0 /* Main.storyboard */; };
 		9FBBA7092AEFA0CA00AEC6F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FBBA7082AEFA0CA00AEC6F0 /* Assets.xcassets */; };
 		9FBBA70C2AEFA0CA00AEC6F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBBA70A2AEFA0CA00AEC6F0 /* LaunchScreen.storyboard */; };
+		9FBBA7142AEFA1AC00AEC6F0 /* GuessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBA7132AEFA1AC00AEC6F0 /* GuessVC.swift */; };
+		9FBBA7162AEFA1BB00AEC6F0 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBA7152AEFA1BB00AEC6F0 /* ResultVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9FBBA7082AEFA0CA00AEC6F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FBBA70B2AEFA0CA00AEC6F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FBBA70D2AEFA0CA00AEC6F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBBA7132AEFA1AC00AEC6F0 /* GuessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessVC.swift; sourceTree = "<group>"; };
+		9FBBA7152AEFA1BB00AEC6F0 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9FBBA6FF2AEFA0C900AEC6F0 /* AppDelegate.swift */,
 				9FBBA7012AEFA0C900AEC6F0 /* SceneDelegate.swift */,
 				9FBBA7032AEFA0C900AEC6F0 /* ViewController.swift */,
+				9FBBA7132AEFA1AC00AEC6F0 /* GuessVC.swift */,
+				9FBBA7152AEFA1BB00AEC6F0 /* ResultVC.swift */,
 				9FBBA7052AEFA0C900AEC6F0 /* Main.storyboard */,
 				9FBBA7082AEFA0CA00AEC6F0 /* Assets.xcassets */,
 				9FBBA70A2AEFA0CA00AEC6F0 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FBBA7162AEFA1BB00AEC6F0 /* ResultVC.swift in Sources */,
+				9FBBA7142AEFA1AC00AEC6F0 /* GuessVC.swift in Sources */,
 				9FBBA7042AEFA0C900AEC6F0 /* ViewController.swift in Sources */,
 				9FBBA7002AEFA0C900AEC6F0 /* AppDelegate.swift in Sources */,
 				9FBBA7022AEFA0C900AEC6F0 /* SceneDelegate.swift in Sources */,
@@ -295,6 +303,7 @@
 				DEVELOPMENT_TEAM = S7L5S75LMR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GuessTheNumber/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess The Number";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +332,7 @@
 				DEVELOPMENT_TEAM = S7L5S75LMR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GuessTheNumber/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess The Number";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
